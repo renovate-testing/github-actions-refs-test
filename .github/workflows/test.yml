@@ -12,13 +12,13 @@ jobs:
       # === UNPINNED (should get pinned) ===
       
       # Semver tag
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       # Feature-oriented tag (non-semver)
-      - uses: taiki-e/install-action@cargo-llvm-cov
+      - uses: taiki-e/install-action@d8c10dae823f48238abff23fee4146b448aed2f1 # ref=cargo-llvm-cov
 
       # Branch reference
-      - uses: actions/checkout@main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # ref=main
 
       # === PINNED (should get updated) ===
       
