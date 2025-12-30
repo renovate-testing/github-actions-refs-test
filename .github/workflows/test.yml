@@ -23,7 +23,7 @@ jobs:
       # === PINNED (should get updated) ===
       
       # Semver with digest
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       # Feature tag with digest
       - uses: taiki-e/install-action@5ade09c4a4c1ee79e3a5fb335ebe1bab295d22eb # ref=just
