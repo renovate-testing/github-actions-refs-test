@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Standard semver tag
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       # Feature-oriented tag (non-semver)
-      - uses: taiki-e/install-action@cargo-llvm-cov
+      - uses: taiki-e/install-action@d8c10dae823f48238abff23fee4146b448aed2f1 # ref=cargo-llvm-cov
 
       # Feature tag with digest pinning
       - uses: taiki-e/install-action@5ade09c4a4c1ee79e3a5fb335ebe1bab295d22eb # tag=just
 
       # Branch reference
-      - uses: actions/checkout@main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # ref=main
 
       # Branch with digest pinning
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # main
