@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       # Feature tag with digest
-      - uses: taiki-e/install-action@5ade09c4a4c1ee79e3a5fb335ebe1bab295d22eb # ref=just
+      - uses: taiki-e/install-action@e86e8cacb1c20f8ed587773a2c596b2eaa88d413 # ref=just
 
       # Branch with digest
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # ref=main
