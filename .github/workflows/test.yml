@@ -22,6 +22,6 @@ jobs:
       - uses: actions/checkout@main
 
       # Branch with digest pinning
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # main
 
       - run: echo "All action types work!"
