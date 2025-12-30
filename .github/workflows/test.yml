@@ -29,6 +29,6 @@ jobs:
       - uses: taiki-e/install-action@5ade09c4a4c1ee79e3a5fb335ebe1bab295d22eb # ref=just
 
       # Branch with digest
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # ref=main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # ref=main
 
       - run: echo "All action types work!"
