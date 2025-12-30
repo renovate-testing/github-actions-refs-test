@@ -12,7 +12,7 @@ jobs:
       # === UNPINNED (should get pinned) ===
       
       # Semver tag
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
 
       # Feature-oriented tag (non-semver)
       - uses: taiki-e/install-action@cargo-llvm-cov
@@ -23,7 +23,7 @@ jobs:
       # === PINNED (should get updated) ===
       
       # Semver with digest
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
       # Feature tag with digest
       - uses: taiki-e/install-action@5ade09c4a4c1ee79e3a5fb335ebe1bab295d22eb # ref=just
