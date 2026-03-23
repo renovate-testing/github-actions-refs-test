@@ -20,6 +20,9 @@ jobs:
       # Branch reference
       - uses: actions/checkout@main
 
+      # Unique repo, branch-only (triggers github-digest without github-tags cache)
+      - uses: peter-evans/create-pull-request@main
+
       # === PINNED (should get updated) ===
       
       # Semver with digest
